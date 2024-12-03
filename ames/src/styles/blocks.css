@@ -1,0 +1,43 @@
+:root {
+    --cor_1: #934a37;
+    --cor_2: #f1ad3f;
+    --cor_3: #28a7a5;
+    --cor_4: #f9f886;
+    --cor_5: #fff5f0;
+    --font_1: eldes cordel;
+    --font_2: arial regular;
+}
+
+
+/* === HEADER ==================== */
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #934a37;
+    color: var(--cor_5);
+
+    display: flex;
+    flex-direction: row;
+}
+
+.header-img {
+    width: 25%;
+}
+header h1 {
+    width: 75%;
+}
+
+
+/* === SECTION ==================== */
+section {
+    width: 100%;
+    height: 80vh;
+}
+
+
+/* === FOOTER ==================== */
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #934a37;
+}
