@@ -17,11 +17,11 @@ if ($_SESSION['grupo'] != 1) {
     <title>Document</title>
 </head>
 <body>
-    <h3>Bem vindo <?php echo $_SESSION['user'] ?> ao painel de pastoreio.</h3>
+    <h3>Bem vindo <?php echo $_SESSION['username'] ?> ao painel de administração.</h3>
     <br>
     <br>
     <br>
-    <a href="insert_users.php">Adicionar Usuário</a>
+    <a href="../admin/insert_users.php">Adicionar Usuário</a>
     <br>
     <br>
     <br>

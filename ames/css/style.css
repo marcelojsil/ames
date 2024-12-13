@@ -22,11 +22,13 @@ a:hover {
     align-items: center;
     width: 15vw;
     height: 8vh;
-    border-radius: 2vh;
+    
     background-color: var(--color2);
     font-size: 1.5em;
     color: var(--color5);
+    border: none;
 }
 .button:hover {
     background-color: var(--color3);
 }
+
