@@ -1,0 +1,6 @@
+criar pagina de login chamada index.php para logar e redirecionar conforme grupo do usuário, se grupo for admin vai para página admin.php, 
+se o grupo for pastor vai para a página home.php, usando php
+
+ao inserir um usuário e senha que estão corretos, dá a mensagem de que o ""Usuário ou senha estão incorretos.". Onde está o erro no código a frente, sendo que os nomes dos campos na tabela users são username, password e group <?php
+session_start();
+include('conect.php'); // Inclui o arquivo de conexão com o banco de dados

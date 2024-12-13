@@ -1,0 +1,32 @@
+* {margin: 0;padding: 0;}
+:root {
+    --color1: #934a37;
+    --color2: #f1ad3f;
+    --color3: #28a7a5;
+    --color4: #f9f886;
+    --color5: #fff5f0;
+    --color6: #ffffff;
+    --color7: #090909;
+}
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: var(--color1);
+}
+a:hover {
+    color: var(--color7);
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 8vh;
+    border-radius: 2vh;
+    background-color: var(--color2);
+    font-size: 1.5em;
+    color: var(--color5);
+}
+.button:hover {
+    background-color: var(--color3);
+}
